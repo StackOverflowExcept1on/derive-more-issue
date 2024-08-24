@@ -2,7 +2,7 @@
 
 #[derive(Debug, Eq, PartialEq, derive_more::Display, derive_more::Error)]
 pub enum Error {
-    #[display(fmt = "Unable to write result")]
+    #[display("Unable to write result")]
     WriteResult,
 }
 
